@@ -30,6 +30,10 @@
 
 打开你的bbmodel模型工程文件，将模型转换为基岩版模型
 
+新版本BlockBench 导出的基岩版模型format_version 是1.21.0
+需要手动改成1.12.0
+否则你的客户端看不到模型
+
 打开刚转换完的模型，把这个多余的hitbox删了（如果没有就不用管）
 
 <img src="docimg/hitbox.png" width="500">
